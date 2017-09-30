@@ -18,7 +18,7 @@
   }
 }
 .cover-card {
-  color: $text-color;
+  color: $white;
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
@@ -28,20 +28,20 @@
   }
   .author_name {
     display: block;
-    color: #F36170;
-    font-size: 1.75em;
+    color: $white;
+    font-size: 1.95em;
     text-transform: lowercase;
   }
   .author_job {
     display: block;
-    color: $secondary;
-    font-size: 0.8em;
+    color: $white;
+    font-size: 0.9em;
     font-weight: 700;
     text-transform: uppercase;
     margin: -5px auto 10px;
   }
   .author_bio {
-    font-size: 90%;
+    font-size: 1.0em;
     display: block;
   }
   @include media-query($medium-screen) {
@@ -60,10 +60,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: $white;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: lighten($white, 14%);
         }
       }
     }
@@ -79,6 +79,7 @@
     zoom: 1;
     &:after {
       content: '/';
+      color: $white;
     }
     &:last-child:after {
       content: '';
@@ -86,11 +87,11 @@
     & a {
       margin-top: 1em;
       text-transform: lowercase;
-      font-size: 85%;
-      color: $secondary;
+      font-size: 90%;
+      color: $white;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($white, 14%);
       }
     }
   }

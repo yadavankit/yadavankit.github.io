@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: Ankit Yadav
+email: connectankityadav@gmail.com
+description: Personal Blog of Ankit Yadav (@yadavankit)
 url: # the base hostname & protocol for your site
 
 
@@ -14,7 +14,7 @@ url: # the base hostname & protocol for your site
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Kolkata
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,14 +33,14 @@ kramdown:
 ####################################
 #
 owner:
-  name: yadavankit
+  name: ankit yadav
   avatar: logo.png
   job: "Learner for life"
-  bio: "Entrepreneur, Pythonista, Djangonaut, iOS, IBM Watson Dev, Artificial Intelligence Research Freak who prefers Tea to Coffee"
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  bio: "Entrepreneur, Pythonista, Djangonaut, iOS, IBM Watson Dev, AI Research Freak who prefers Tea to Coffee"
+  email: connectankityadav@gmail.com
+  disqus-shortname: yadavankit
+  twitter: theyadavankit
+  facebook: techjunkie007
   google:
     plus: #username
     analytics:
@@ -50,11 +50,11 @@ owner:
   bing-verify:
   github: #username
   gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  stackoverflow: 4990064/ankit-yadav
+  linkedin: connectankityadav
   skype: #username
   xing: #username
-  instagram: #username
+  instagram: techjunkie
   lastfm: #username
   tumblr: #username
   pinterest: #username
